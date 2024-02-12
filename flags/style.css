@@ -1,0 +1,215 @@
+/* don't need to follow */
+body {
+	font-family: sans-serif;
+	font-size: 48px;
+	line-height: 1;
+	margin:0;
+	padding:0;
+}
+a {
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: letter-spacing 0.2s;
+}
+a:hover {
+	letter-spacing: 0.25em;
+	color: red;
+}
+ul {
+	text-align: center;
+}
+li {
+	list-style: none;
+}
+
+/* colombia */
+
+.colombia div {
+	width: 100vw;
+	height:100px;
+}
+
+.colombia div.first {
+	background-color: #FCD116;
+	height: 50vh;
+}
+
+.colombia div.second {
+	background-color: #003893;
+	height: 25vh;
+}
+
+.colombia div.third {
+	background-color: #CE1126;
+	height: 25vh;
+}
+
+/* palau */
+
+.palau div {
+	width: 100%;
+
+}
+
+.palau div.first {
+	width: 1689px;
+	height: 1000px;
+	background-color: #0085CA;
+}
+
+.palau div.second {
+	position: center;
+	margin: -750px -750px -950px; 
+	margin-inline: 450px 450px;
+	padding: 35px;
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	background-color: #FFFF00;
+
+}
+
+/* madagascar */
+
+.madagascar div {
+	width: 100vw;
+	height:100px;
+}
+
+.madagascar div.first {
+	background-color: #FFFF;
+	width: 25vw;
+	height: 100vh;
+	top: 0;
+	bottom: 0;
+	position: fixed;
+
+}
+
+.madagascar div.second {
+	height: 50vh;
+	width: -35px;
+	background-color: #00843D;
+
+}
+
+.madagascar div.third {
+	background-color: #F9423A;
+	height: 50vh;
+	width: -35px;
+	
+}
+
+/* belgium */
+
+.belgium div {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height:100px;
+}
+
+.belgium div.first {
+	background-color: black;
+	width: 50vw;
+	height: 100vh;
+	position: fixed;
+	left: 0vw;
+}
+
+.belgium div.second {
+	background-color: yellow;
+	width: 90vw;
+	height: 100vh;
+	position: fixed;
+	left: 70vh;
+	z-index:1;
+
+}
+
+.belgium div.third {
+	background-color: red;
+	width: 50vw;
+	height:100vh;
+	position: fixed;
+	left: 130vh;
+	z-index:1;
+}
+
+/* sweden */
+
+.sweden div {
+	width: 100vw;
+	height:100px;
+}
+
+.sweden div.first {
+	background-color: #006AA7;
+	height: 50vh;
+}
+
+.sweden div.second {
+	background-color: #FECC02;
+	width: 200vh;
+	height: 200px;
+}
+
+.sweden div.third {
+	background-color: #006AA7;
+	height: 50vh;
+}
+
+.sweden div.fourth {
+	background-color: #FECC02;
+	position: center;
+	margin: -1500px -1500px -1500px; 
+	margin-inline: 500px 500px;
+	width: 200px;
+	height: 1500px;
+
+}
+
+
+/* tonga */
+
+.tonga div {
+	width: 100vw;
+	height: 100px;
+}
+
+.tonga div.first {
+	width: 100vw;
+	height: 100vh;
+	background-color: red;
+}
+
+.tonga div.second {
+	background-color: #FFF;
+	width: 35vw;
+	height: 25vw;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+.tonga div.third {
+	background-color: red;
+	position: absolute;
+	height: 30vh;
+	width: 8vw;
+	left:11vw;
+	top: 5vh;
+	z-index:2;
+}
+
+.tonga div.fourth {
+	background-color: red;
+	position: absolute;
+	height: 12vh;
+	width: 21vw;
+	left:4vw;
+	top: 14vh;
+	z-index:4;
+
+}
