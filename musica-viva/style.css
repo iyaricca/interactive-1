@@ -1,0 +1,153 @@
+/* styles for index.html */
+
+@keyframes colors {
+  0%  {color: #27a38a;}
+  15% {color: #daa507;}
+  30% {color: #e09a30;}
+  45% {color: #19747d;}
+  60% {color: #d48468;}
+  75% {color: #d48468;}
+  90% {color: #daa507;}
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  justify-content: center;
+}
+a {
+  color: #7e7f7e;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: letter-spacing 0.2s;
+}
+a:hover {
+  animation: colors 1.5s infinite;
+}
+
+ul {
+  font-size: 10vw;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+
+li {
+  list-style: none;
+}
+
+/* styles for poster2 */
+
+
+.poster2 .col {
+  /* to make the col boxes go left to right */
+  float: left; 
+
+  /* width of the box is 100/6 */
+  width: 16.66vw; 
+  
+  /* giving it a specific height vw in order to keep the aspect ratio */
+  height: 25vw;
+ 
+  /* text appearance */ 
+  text-align: center;
+  font-size: 18vw;
+  line-height: 25vw;
+  color: #0d6a87;
+
+  /* show border for testing purposes */
+  border: px solid;
+  box-sizing: border-box;
+  background: #771430;
+}
+
+.poster2 .row {
+  /* clear float:left every row */
+  clear: left;
+}
+
+.poster2 p {
+  /* text appearance for paragraphs */ 
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+
+  /* show background for testing purposes */
+  background: ;
+}
+
+.poster2 .para-left {
+  /* overlayed, but still aligns to the grid */ 
+  position: absolute;
+  text-align: right;
+  line-height: 1.9vw;
+  left: 49.98vw; /* .col width * 3 */
+  top: 112vw;     /* .col height * 3 */
+  color: #bababa
+}
+.poster2 .para-right {
+  /* overlayed, but still aligns to the grid */ 
+  position: absolute;
+  line-height: 1.9vw;
+  left: 66.64vw; /* .col width * 4 */
+  top: 112vw;    /* .col height * 3 */
+  color: #bababa
+}
+
+
+
+/* styles for poster4 */
+
+.poster4 .col-lg- {
+  /* to make the col boxes go left to right */
+  float: left; 
+
+  /* width of the box is 100/6 */
+  width: 10vw; 
+  
+  /* giving it a specific height vw in order to keep the aspect ratio */
+  height: 10vw;
+ 
+  /* text appearance */ 
+  text-align: center;
+  font-size: 2vw;
+  line-height: 10vw;
+
+
+  /* show border for testing purposes */
+  border: px solid;
+  box-sizing: border-box;
+  background: white;
+}
+
+.poster4 .row {
+  /* clear float:left every row */
+  clear: left;
+}
+
+.poster4 {
+  /* text appearance for paragraphs */ 
+  font-size: 20px;
+  line-height: 1;
+  margin: 0;
+
+  /* show background for testing purposes */
+  background: white;
+}
+
+.poster4 .para-left {
+  /* overlayed, but still aligns to the grid */ 
+  position: absolute;
+  left: 49.98vw; /* .col width * 3 */
+  top: 75vw;     /* .col height * 3 */
+}
+.poster4 .para-right {
+  /* overlayed, but still aligns to the grid */ 
+  position: absolute;
+  left: 66.64vw; /* .col width * 4 */
+  top: 25vw;    /* .col height * 3 */
+}
