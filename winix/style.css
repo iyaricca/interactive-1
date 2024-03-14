@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #430602;
+  color: yellow;
+}
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 960px;
+/*  background-color: red;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: Sixtyfour;
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.4s ease-in-out;
+}
+
+h2 {
+  font-family: Sixtyfour;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-align-last: 1px;
+  text-transform: uppercase;
+}
+
+nav {
+  font-family: Sixtyfour;
+  font-size: 40px;
+  margin-left: 360px;
+}
+
+p {
+  font-family: Sixtyfour;
+  font-size: 13.5px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+.staircase {
+  display: block;
+}
+
+.staircase:nth-child(odd) {
+  transform: skew(45deg, -10deg) scaleY(0.7);
+}
+
+.staircase:nth-child(even) {
+  transform: skew(0.5deg, -10deg) scaleY(1.02);
+}
+
+.gradient-text {
+  background-color: #f3ec78;
+  background-image: linear-gradient(0deg, #FF1507, #F2DD1C, #FFB038, #E85353);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+.flex {
+  display: flex;
+}
+
+p {
+  display: block;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first {
+  transform: skew(-25deg, -3deg) scaleY(1.30);
+  margin-top: 100px;
+}
+
+.second {
+  transform: skew(22deg, -3deg) scaleY(1.38);
+  margin-top: 100px;
+}
+
+.third {
+  transform: skew(-22deg, -3deg) scaleY(1.30);
+  margin-top: 100px;
+}
+
+.fourth {
+  transform: skew(15deg, -3deg) scaleY(1.11);
+  margin-top: 100px;
+}
+
+.fifth {
+  transform: skew(-15deg, -3deg) scaleY(1.18);
+  margin-top: 100px;
+}
+
+.sixth {
+  transform: skew(18deg, -3deg) scaleY(1.14);
+  margin-top: 100px;
+}
+
+.seventh {
+  transform: skew(-18deg, -3deg) scaleY(1.10);
+  margin-top: 100px;
+  color: red;
+}
+
+.eigth {
+  transform: skew(18deg, -3deg) scaleY(1.75);
+  margin-top: 100px;
+}
+
+.nineth {
+  transform: skew(5deg, -30deg) scaleY(1);
+  margin-top: 100px;
+  color:red;
+}
+
+.tenth {
+  transform: skew(0.2deg, 35deg) scaleY(1);
+  margin-top: 100px;
+  color: orange;
+}
+
+.eleventh {
+  transform: skew(5deg, 5deg) scaleY(1);
+  margin-top: 100px;
+}
+
+.twelve {
+  transform: skew(-1deg, 150deg) scaleY(1.2);
+  margin-top: 100px;
+  color: red;
+}
+
+.thirteen {
+  transform: skew(-10deg, 1deg) scaleY(3);
+  margin-top: 100px;
+}
+
+.fourteen {
+  transform: skew(1deg, 1deg) scaleY(1.03);
+  margin-top: 100px;
+}
+
+.image1 {
+  transform: skew(20deg, -3deg) scaleY(1);
+}
+
+.image2 {
+  transform: skew(0deg, 0deg) scaleY(1);
+}
+
+.image3 {
+  transform: skew(0deg, 0deg) scaleY(1);
+}
+
+.image4 {
+  transform: skew(0deg, 0deg) scaleY(1);
+}
+
+.image5 {
+  transform: skew(0deg, 0deg) scaleY(1);
+}
+
+.image6 {
+  transform: skew(0deg, 0deg) scaleY(1);
+}
+
+.image7 {
+  transform: skew(0deg, 0deg) scaleY(1);
+}
+
+.image8 {
+  transform: skew(0deg, 0deg) scaleY(1);
+}
+
+.image9 {
+  transform: skew(0deg, 0deg) scaleY(1);
+}
+
+.image10 {
+  transform: skew(0deg, 0deg) scaleY(1);
+}
+
+.image11 {
+  transform: skew(0deg, 0deg) scaleY(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*everything below here lagacy css*/
+
+.perspective-text {
+  background-color: ;
+   font-family: Sixtyfour;
+   font-size: 80px;
+   font-weight: 900;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+
+   .perspective-line {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+
+    
+}
+
+p {
+    margin: 0;
+    height: px;
+    line-height: px;
+    transition: all 0.4s ease-in-out;
+}
+
+.perspective-line:nth-child(odd) {
+  transform: skew(45deg, -10deg) scaleY(0.7);
+}
+
+.perspective-line:nth-child(even) {
+  transform: skew(0.5deg, -10deg) scaleY(1.02);
+}
+
+.perspective-line:hover p{
+  transform: translate(0, -55px);
+}
+
+.perspective-line:nth-child(1) {
+  left: 100px;
+}
+
+.perspective-line:nth-child(2) {
+  left: 90px;
+}
+
+.perspective-line:nth-child(3) {
+  left: 87px;
+}
+
+.perspective-line:nth-child(4) {
+  left: 116px;
+}
+
+.perspective-line:nth-child(5) {
+  left: 145px;
+}
+
+/* styles for atari */
+
+body {
+
+  color: #FFAB07;
+  font-family: SixtyFour;
+  margin: 0;
+}
+
+.container {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container h1 {
+  margin: 0;
+  white-space: narrow;
+  overflow: hidden;
+  animation: type 5s steps(50, end); care-blink .8s ease infinite;  
+  border-right: 10px solid #00fa00; 
+}
+
+@keyframes type {
+   0% { 
+        width: 0;
+
+    }
+
+    100% {
+        width: 100%;
+
+    }
+}
+
+@keyframes caret-blank {
+  0% {
+
+    border-color: transparent;
+  }
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
