@@ -1,4 +1,8 @@
-* {
+
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap')
+* 
+
+{
   margin: 0;
   padding: 0;
 }
@@ -19,7 +23,7 @@ a {
 }
 
 h1 {
-  font-family: Sixtyfour;
+  font-family: "Sixtyfour";
   font-size: 80px;
   font-weight: 900;
   letter-spacing: 1px;
@@ -59,6 +63,10 @@ p {
 
 .staircase:nth-child(even) {
   transform: skew(0.5deg, -10deg) scaleY(1.02);
+}
+
+.staircase:hover h1{
+  transform: translate(0, -55px);
 }
 
 .gradient-text {
