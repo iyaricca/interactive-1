@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*text style*/
+
+body {
+	font-family: ;
+}
+
+.my-google-fonts {
+  font-family: "Rubik Microbe", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section {
+	background-color: rgba(255, 0, 0, 0.2);
+	margin: 3m 0;
+}
+
+p {
+	background-color: rgba(255, 255, 0, 0.2);
+	margin-bottom: 1em;
+}
+
+P:last-child {
+	margin-bottom: 0;
+}
+
+.flex{
+	display: flex;
+}
+
+.flex-then-wrap-with-gap {
+	display:flex;
+	flex-wrap: wrap;
+	gap: 1em;
+}
+
+.flex-then-wrap-with-gap > div {
+	width: 150px;
+	height: 150px;
+	background-color: rgba(255, 0, 0, 0.2);
+}
+
+.flex-space-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	gap: 1em;
+}
+
+.grid > div {
+	background-color: rgba(255, 0, 0, 0.2);
+}
+
+ol {
+	list-style: lower-roman inside;
+}
+
+.transition > div {
+	height: 100px;
+}
+
+.transition-width {
+	transition: width 2s;
+	width: 100w;
+}
+
+.transition-width:hover {
+	width: 50%;
+}
+
+.transition-width-height {
+	transition: width 1s; height 5s;
+	width: 100%;
+	height: 200px;
+}
+
+.transition-move {
+	transition: margin 2s;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+.transition-move:hover{
+	margin-left: -100px;
+	margin-top: -100px;
+}
+
+.transition-rotate { 
+	transition: transform 2s;
+	transform: rotate(0deg);
+ }
+
+ .transition-rotate:hover{
+ 	transform: rotate(580deg);
+}
+
+.transition-rotate3d {
+	transition: transform 2s;
+	transform: rotate3d(0, 0, 0, 0deg);
+}
+
+.transition-rotate3d:hover{
+	transform: rotate3d(0, 2, 1, 90deg);
+}
+
+@keyframes my-animation {
+	0%    { margin-left: 0; margin-top: 0; border-radius: 50vw}
+  25%   { margin-left: 50vw; margin-top: 0; border-radius: 0}
+  50%   { margin-left: 50vw; margin-top: 50vw; border-radius: 50vw}
+  75%   { margin-left: 0; margin-top: 50vw; border-radius: 0}
+  100%  { margin-left: 0; margin-top: 0; border-radius: 50vw}
+
+}
+
+.ball {
+  width: 50vw;
+  height: 50vw;
+  background-color: black;
+  border-radius: 50vw;
+  margin-left: 25vw;
+  animation-name: my-animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+
+
+

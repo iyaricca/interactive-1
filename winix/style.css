@@ -147,9 +147,9 @@ p {
 }
 
 .twelve {
-  transform: skew(-1deg, 150deg) scaleY(1.2);
+  transform: skew(-1deg, 150deg) scaleY(3);
   margin-top: 100px;
-  color: red;
+  color: orange;
 }
 
 .thirteen {
@@ -203,7 +203,7 @@ p {
 }
 
 .image11 {
-  transform: skew(0deg, 0deg) scaleY(1);
+  transform: skew(0deg, 0deg) scaleY(0.5);
 }
 
 
