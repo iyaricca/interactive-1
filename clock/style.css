@@ -3,6 +3,7 @@ body {
 }
 .clock {
   float:left;
+  position: relative;
   width: 100px;
   height: 100px;
   background-color: hsl(50, 80%, 50%, 1.0);
@@ -10,7 +11,9 @@ body {
   margin: 10px;
 }
 .clock2 {
-  float:left;
+  float:right;
+  bottom: -700px;
+  position: relative;
   width: 100px;
   height: 100px;
   background-color: hsl(200, 80%, 50%, 1.0);
