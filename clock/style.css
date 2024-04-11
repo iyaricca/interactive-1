@@ -1,0 +1,23 @@
+body {
+  background-color: #e7e7e7;
+}
+.clock {
+  float:left;
+  width: 100px;
+  height: 100px;
+  background-color: hsl(50, 80%, 50%, 1.0);
+  border-radius: 
+  margin: 10px;
+}
+.clock2 {
+  float:left;
+  width: 100px;
+  height: 100px;
+  background-color: hsl(200, 80%, 50%, 1.0);
+  border-radius: 
+  margin: 10px;
+}
+
+.clear {
+  clear: both;
+}
