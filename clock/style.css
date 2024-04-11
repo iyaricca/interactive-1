@@ -1,12 +1,12 @@
 body {
-  background-color: #e7e7e7;
+  background-color: hsl(50, 95%, 50%, 1.0);
 }
 .clock {
   float:left;
   position: relative;
   width: 100px;
   height: 100px;
-  background-color: hsl(50, 80%, 50%, 1.0);
+  background-color: hsl(10, 80%, 50%, 1.0);
   border-radius: 
   margin: 10px;
 }
