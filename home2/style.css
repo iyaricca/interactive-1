@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquard+12+Charted&family=Jersey+15+Charted&family=Jersey+25&family=Sixtyfour&display=swap');
+
+body {
+  margin: 0;
+  background: linear-gradient(62deg, #3A12BB 50%, #1244BB 100%);
+
+.blur-text-container .blur-text{
+  font-family: "Bebas+Neue", sans-serif;
+  font-weight: 50;
+  font-size: 20vh;
+  line-height: 0.8;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 0;
+  filter: blur(40px);
+  transition: all 900ms ease;
+}
+
+.blur-text:hover {
+  filter: blur(0);
+  letter-spacing: 0.25em;
+  transform: scale(1.2);
+  color: #0DDEBA;
+}
+
+.blur-text-container:hover {
+  filter: blur(0);
+  letter-spacing: 0.25em;
+  transform: scale(0.5);
+  color: #B149FA;
+}
+
+.blur-text-container {
+  color: #0DDE9B;
+}
+
+.blur-text.t {
+  color: #54DE0D;
+  }
+}
+
+
+a {
+  font-family: "Bebas+Neue", sans-serif;
+  font-weight: 50;
+  font-size: 10vh;
+  line-height: 0.8;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 0;
+  color: #0DDEBA;
+  mix-blend-mode: luminosity;
+}
+
+a:hover {
+  font-family: "Bebas+Neue", sans-serif;
+  font-weight: 50;
+  font-size: 10vh;
+  line-height: 0.8;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 0.200em;
+  transition: all 0.8s ease-in-out;
+  animation: type 5s steps(9, end); care-blink .8s ease infinite; 
+}
+
+.project {
+  width: 100vw;
+  height: 100vh;
+  font-weight: lighter;
+  font-size: 100px;
+  position: fixed;
+  font-family: "Bebas+Neue", sans-serif;
+  color: #0DDEBA;
+}
+
+
+.gray {
+  background: linear-gradient(62deg, #1244BB 50%, #3A12BB 100%)
+}
+.blue {
+  background: linear-gradient(62deg, #1244BB 50%, #3A12BB 100%)
+}
+.scroller {
+  height: 400vh; /* just to create enough amount to scroll */
+}
+#note {
+  text-align: right;
+  position: fixed;
+  right: 1em;
+}
+
+linear-gradient(0deg, #FFFAC7, #FFC7C7, #E0C7FF, #D0FFC7);

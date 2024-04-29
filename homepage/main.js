@@ -26,6 +26,4 @@ function update(e) {
       projects[i].style.transform = "scale(0)"; 
     }
   }
-
-  
 }

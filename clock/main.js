@@ -36,8 +36,19 @@ function updateTime() {
   document.querySelector(".clock2").style.borderRadius = r2 + "px";
   document.querySelector(".clock2").style.transform = "rotate(" + sec * 6 + "deg)"; 
 
+// calculate the second box
+  let w3 = sec * 6;
+  let h3 = w1;
+  let r3 = 360 - (sec * 6); // ill let you figur this out
+
+  document.querySelector(".clock3").style.width = w3 + "px"; 
+  document.querySelector(".clock3").style.height = h3 + "px"; 
+  document.querySelector(".clock3").style.borderRadius = r3 + "px";
+  document.querySelector(".clock3").style.transform = "rotate(" + sec * 6 + "deg)"; 
+
 
 }
 
 // run the above function every second
 setInterval(updateTime, 1000);
+

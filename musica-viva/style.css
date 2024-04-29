@@ -115,18 +115,37 @@ li {
   /* text appearance */ 
   text-align: center;
   font-size: 2vw;
-  line-height: 10vw;
+  font-weight: bold;
 
 
   /* show border for testing purposes */
   border: px solid;
   box-sizing: border-box;
-  background: white;
+  background: #FDF7ED;
 }
 
-.poster4 .row {
+.poster4 .row1{
   /* clear float:left every row */
   clear: left;
+  line-height: 20vw;
+}
+
+.poster4 .row2{
+  /* clear float:left every row */
+  clear: left;
+  line-height: 15vw;
+}
+
+.poster4 .row3{
+  /* clear float:left every row */
+  clear: left;
+  line-height: 0.1vw;
+}
+
+.poster4 .row4{
+  /* clear float:left every row */
+  clear: left;
+  line-height: 15vw;
 }
 
 .poster4 {
@@ -136,7 +155,7 @@ li {
   margin: 0;
 
   /* show background for testing purposes */
-  background: white;
+  background: #FDF7ED;
 }
 
 .poster4 .para-left {
