@@ -40,7 +40,120 @@ li {
   list-style: none;
 }
 
-/* styles for poster2 */
+/* styles for poster1 */
+
+.poster1 .col {
+  /* to make the col boxes go left to right */
+  float: left; 
+
+  /* width of the box is 100/6 */
+  width: 16.66vw; 
+  
+  /* giving it a specific height vw in order to keep the aspect ratio */
+  height: 25vw;
+ 
+  /* text appearance */ 
+  text-align: center;
+  font-size: 18vw;
+  line-height: 25vw;
+  color: white;
+
+  /* show border for testing purposes */
+  border: px solid;
+  box-sizing: border-box;
+  background: #7BCE7A;
+}
+
+.poster1 .row {
+  /* clear float:left every row */
+  clear: left;
+}
+
+.poster1 p {
+  /* text appearance for paragraphs */ 
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+  color: #7BCE7A;
+
+  /* show background for testing purposes */
+  background: #7BCE7A;
+}
+
+.poster1 .para-right {
+  /* overlayed, but still aligns to the grid */ 
+  position: absolute;
+  text-align: right;
+  line-height: 1.9vw;
+  left: 49.98vw; /* .col width * 3 */
+  top: 112vw;     /* .col height * 3 */
+  color: black;
+}
+.poster1 .para-left {
+  /* overlayed, but still aligns to the grid */ 
+  position: absolute;
+  text-align: left;
+  line-height: 1.9vw;
+  left: -0.1vw; /* .col width * 3 */
+  top: 112vw;    /* .col height * 3 */
+  color: black;
+}
+
+.poster2 .col {
+  /* to make the col boxes go left to right */
+  float: left; 
+
+  /* width of the box is 100/6 */
+  width: 16.66vw; 
+  
+  /* giving it a specific height vw in order to keep the aspect ratio */
+  height: 25vw;
+ 
+  /* text appearance */ 
+  text-align: center;
+  font-size: 18vw;
+  line-height: 25vw;
+  color: #0d6a87;
+
+  /* show border for testing purposes */
+  border: px solid;
+  box-sizing: border-box;
+  background: #771430;
+}
+
+.poster2 .row {
+  /* clear float:left every row */
+  clear: left;
+}
+
+.poster2 p {
+  /* text appearance for paragraphs */ 
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+
+  /* show background for testing purposes */
+  background: ;
+}
+
+.poster2 .para-left {
+  /* overlayed, but still aligns to the grid */ 
+  position: absolute;
+  text-align: right;
+  line-height: 1.9vw;
+  left: 49.98vw; /* .col width * 3 */
+  top: 112vw;     /* .col height * 3 */
+  color: #bababa
+}
+.poster2 .para-right {
+  /* overlayed, but still aligns to the grid */ 
+  position: absolute;
+  line-height: 1.9vw;
+  left: 66.64vw; /* .col width * 4 */
+  top: 112vw;    /* .col height * 3 */
+  color: #bababa
+}
+
 
 
 .poster2 .col {
@@ -96,6 +209,76 @@ li {
   left: 66.64vw; /* .col width * 4 */
   top: 112vw;    /* .col height * 3 */
   color: #bababa
+}
+
+
+.poster3 .col-lg- {
+  /* to make the col boxes go left to right */
+  float: left; 
+
+  /* width of the box is 100/6 */
+  width: 10vw; 
+  
+  /* giving it a specific height vw in order to keep the aspect ratio */
+  height: 10vw;
+ 
+  /* text appearance */ 
+  text-align: center;
+  font-size: 2vw;
+  font-weight: bold;
+
+
+  /* show border for testing purposes */
+  border: px solid;
+  box-sizing: border-box;
+  background: gray;
+}
+
+.poster3 .row1{
+  /* clear float:left every row */
+  clear: left;
+  line-height: 20vw;
+}
+
+.poster3 .row2{
+  /* clear float:left every row */
+  clear: left;
+  line-height: 15vw;
+}
+
+.poster3 .row3{
+  /* clear float:left every row */
+  clear: left;
+  line-height: 0.1vw;
+}
+
+.poster3 .row4{
+  /* clear float:left every row */
+  clear: left;
+  line-height: 15vw;
+}
+
+.poster3 {
+  /* text appearance for paragraphs */ 
+  font-size: 20px;
+  line-height: 1;
+  margin: 0;
+
+  /* show background for testing purposes */
+  background: gray;
+}
+
+.poster3 .para-left {
+  /* overlayed, but still aligns to the grid */ 
+  position: absolute;
+  left: 49.98vw; /* .col width * 3 */
+  top: 75vw;     /* .col height * 3 */
+}
+.poster3 .para-right {
+  /* overlayed, but still aligns to the grid */ 
+  position: absolute;
+  left: 66.64vw; /* .col width * 4 */
+  top: 25vw;    /* .col height * 3 */
 }
 
 
