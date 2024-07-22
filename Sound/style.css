@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&display=swap');
+
+body {
+  margin: 0;
+  background: linear-gradient(62deg, #3A12BB 50%, #1244BB 100%);
+  mix-blend-mode: plus-lighter;
+  cursor: none;
+
+.cursor {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  background: radial-gradient(#38B8EB, #4138EB);
+  transition: 0.1s;
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+}
+
+
+.blur-text-container .blur-text{
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-size: 20vh;
+  line-height: 3.5;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 0;
+  filter: blur(40px);
+  transition: all 900ms ease;
+}
+
+.beeperc { 
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #fff -20px 0 80px #fff;
+  inset: 0 0 50px #fff;
+  inset: 50px 0 80px #f0f;
+  inset: -50px 0 80px #0ff;
+  inset: 50px 0 300px #f0f;
+  inset: -50px 0 300px #0ff;
+  animation: pulsate 6s linear infinite;
+  position: absolute;
+  margin: 0;
+  right: 10em;
+  bottom: 10em;
+  background: radial-gradient(#38B8EB, #4138EB);
+  transition: 0.1s;
+ }
+
+.beeperc {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-size: 5vh;
+  line-height: 3.5;
+  font-style: oblique;
+  text-transform: uppercase;
+  margin: 0;
+  filter: blur(40px);
+  transition: all 900ms ease;
+}
+
+.beeperc:hover {
+  filter: blur(0);
+  letter-spacing: 0.25em;
+  transform: scale(1.2);
+  color: #38D7EB; 
+  mix-blend-mode: difference;
+}
+
+
+.blur-text:hover {
+  filter: blur(0);
+  letter-spacing: 0.25em;
+  transform: scale(1.2);
+  color: #38D7EB; 
+  mix-blend-mode: difference;
+}
+
+
+.blur-text-container {
+  color: #B149FA;
+}
+
+.blur-text.t {
+  color: #B149FA;
+  }
+}
+
+
+#note {
+  text-align: right;
+  position: fixed;
+  right: 5em;
+}

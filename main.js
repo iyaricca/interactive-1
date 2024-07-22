@@ -14,8 +14,8 @@ function update(e) {
   let currentProjectIndex = Math.min (Math.floor(scrollY / scrollPerProject), projects.length - 1);
   let currentScale = (scrollY - (currentProjectIndex * scrollPerProject)) / scrollPerProject;
   note.innerText = 
-    "Current scroll amount is: " + scrollY + "\n" +
-    "Current project index: " + currentProjectIndex + "\n"
+    " " + scrollY + "\n" +
+    " " + currentProjectIndex + "\n"
 
   for (i = 0; i < projects.length; i++) {
     if (i == currentProjectIndex) {
@@ -27,3 +27,10 @@ function update(e) {
     }
   }
 }
+
+const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+  cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+

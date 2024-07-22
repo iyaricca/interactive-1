@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquard+12+Charted&family=Jersey+15+Charted&family=Jersey+25&family=Sixtyfour&display=swap');
+
+body {
+  margin: 0;
+  background-image: linear-gradient(0deg, #060606, #060606, #060606, #060606);
+
+
+}
+
+
+a {
+  font-family: "Bebas+Neue", sans-serif;
+  font-weight: 50;
+  font-size: 10vh;
+  line-height: 0.8;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 0;
+  color: #0DDEBA;
+  mix-blend-mode: luminosity;
+}
+
+img:hover {
+  font-family: "Bebas+Neue", sans-serif;
+  font-weight: 50;
+  font-size: 10vh;
+  line-height: 0.8;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 0.200em;
+  transition: all 0.8s ease-in-out;
+  animation: type 5s steps(9, end); care-blink .8s ease infinite; 
+}
+
+.project {
+  width: 100vw;
+  height: 100vh;
+  font-weight: lighter;
+  font-size: 100px;
+  position: fixed;
+  font-family: "Bebas+Neue", sans-serif;
+  color: #0DDEBA;
+}
+
+
+.gray {
+  background: linear-gradient(62deg, #47B5D5 50%, #4783D5 100%)
+}
+.blue {
+  background: linear-gradient(62deg, #6B47D5 50%, #C347D5 100%)
+}
+.scroller {
+  height: 400vh; /* just to create enough amount to scroll */
+}
+#note {
+  text-align: right;
+  position: fixed;
+  right: 1em;
+}
+
+linear-gradient(0deg, #FFFAC7, #FFC7C7, #E0C7FF, #D0FFC7);

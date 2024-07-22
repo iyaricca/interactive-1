@@ -1,14 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquard+12+Charted&family=Jersey+15+Charted&family=Jersey+25&family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&display=swap');
 
 body {
   margin: 0;
   background: linear-gradient(62deg, #3A12BB 50%, #1244BB 100%);
+  mix-blend-mode: plus-lighter;
+  cursor: none;
+
+.cursor {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  background: radial-gradient(#38B8EB, #4138EB);
+  transition: 0.1s;
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+}
+
 
 .blur-text-container .blur-text{
-  font-family: "Bebas+Neue", sans-serif;
-  font-weight: 50;
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
   font-size: 20vh;
-  line-height: 0.8;
+  line-height: 3.5;
   font-style: normal;
   text-transform: uppercase;
   margin: 0;
@@ -16,46 +30,63 @@ body {
   transition: all 900ms ease;
 }
 
+.scroll{
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-size: 5vh;
+  line-height: 3.5;
+  font-style: oblique;
+  text-transform: uppercase;
+  margin: 0;
+  filter: blur(40px);
+  transition: all 900ms ease;
+}
+
+.scroll:hover {
+  filter: blur(0);
+  letter-spacing: 0.25em;
+  transform: scale(1.2);
+  color: #38D7EB; 
+  mix-blend-mode: difference;
+}
+
+
 .blur-text:hover {
   filter: blur(0);
   letter-spacing: 0.25em;
   transform: scale(1.2);
-  color: #0DDEBA;
+  color: #38D7EB; 
+  mix-blend-mode: difference;
 }
 
-.blur-text-container:hover {
-  filter: blur(0);
-  letter-spacing: 0.25em;
-  transform: scale(0.5);
+
+.blur-text-container {
   color: #B149FA;
 }
 
-.blur-text-container {
-  color: #0DDE9B;
-}
-
 .blur-text.t {
-  color: #54DE0D;
+  color: #B149FA;
   }
 }
 
-
 a {
-  font-family: "Bebas+Neue", sans-serif;
-  font-weight: 50;
+  font-family: "Kanit", sans-serif;
+  font-weight: 10;
+  text-decoration: none;
   font-size: 10vh;
   line-height: 0.8;
   font-style: normal;
   text-transform: uppercase;
   margin: 0;
-  color: #0DDEBA;
+  color: #4138EB;
   mix-blend-mode: luminosity;
 }
 
 a:hover {
-  font-family: "Bebas+Neue", sans-serif;
-  font-weight: 50;
+  font-family: "Kanit", sans-serif;
+  font-weight: 10;
   font-size: 10vh;
+  text-decoration: none;
   line-height: 0.8;
   font-style: normal;
   text-transform: uppercase;
@@ -70,10 +101,13 @@ a:hover {
   height: 100vh;
   font-weight: lighter;
   font-size: 100px;
+  white-space: nowrap;
   position: fixed;
-  font-family: "Bebas+Neue", sans-serif;
+  font-family: "Kanit", sans-serif;
   color: #0DDEBA;
+  mix-blend-mode: difference;
 }
+
 
 
 .gray {

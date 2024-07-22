@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <title>Graphic Score</title>
+    
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquard+12+Charted&family=Jersey+15+Charted&family=Jersey+25&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/wavesurfer.js@7/dist/wavesurfer.esm.js"></script>
+</head>
+<body>
+  <div class="cursor"></div>
+    <div class="blur-text-container">
+      <span class="blur-text"></span>
+      <span class="blur-text">(((</span>
+      <span class="beeperc" id="playBtn"></span>
+      <div id="waveform"></div>
+</div>
+
+<script>
+  var playBtn = document.getElementById("playBtn");
+
+  playBtn.onclick = function(){
+    beeperc.playPause();
+  }
+
+const beeperc = BeeperC.create({
+  container: '#waveform',
+  waveColor: '#ddd',
+  progressColor: '#ff006c',
+  barWidth: 4,
+  responsive: true,
+  height: 90, 
+  barRadius: 4,
+})
+
+beeperc.on('interaction', () => {
+  beeperc.play()
+})
+
+beeperc.load('music/Beepc.m4a');
+
+</script>
+<div id="cursor"></div>
+<div id="note">Note</div>
+<script src="main.js"></script>
+</body>
+</html>
