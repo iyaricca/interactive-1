@@ -11,37 +11,34 @@
 </head>
 <body>
   <div class="cursor"></div>
+  <div class="round"></div>
+  <div class="round2"></div>
     <div class="blur-text-container">
       <span class="blur-text"></span>
       <span class="blur-text">(((</span>
-      <span class="beeperc" id="playBtn"></span>
-      <div id="waveform"></div>
+      <button id="display" onclick="audio.play();">Play</button>
+      <button id="display2" onclick="audio2.play();">Play</button>
+      <button id="display3" onclick="audio3.play();">Play</button>
 </div>
 
-<script>
-  var playBtn = document.getElementById("playBtn");
-
-  playBtn.onclick = function(){
-    beeperc.playPause();
-  }
-
-const beeperc = BeeperC.create({
-  container: '#waveform',
-  waveColor: '#ddd',
-  progressColor: '#ff006c',
-  barWidth: 4,
-  responsive: true,
-  height: 90, 
-  barRadius: 4,
-})
-
-beeperc.on('interaction', () => {
-  beeperc.play()
-})
-
-beeperc.load('music/Beepc.m4a');
+<script type="text/javascript">
+  const audio = new Audio();
+  audio.src = "./Beepc.m4a"
 
 </script>
+
+<script type="text/javascript">
+  const audio2 = new Audio();
+  audio2.src = "./Beepf.m4a"
+
+</script>
+
+<script type="text/javascript">
+  const audio3 = new Audio();
+  audio3.src = "./Beepfr.m4a"
+
+</script>
+
 <div id="cursor"></div>
 <div id="note">Note</div>
 <script src="main.js"></script>

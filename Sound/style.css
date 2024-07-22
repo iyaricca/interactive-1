@@ -2,13 +2,13 @@
 
 body {
   margin: 0;
-  background: linear-gradient(62deg, #3A12BB 50%, #1244BB 100%);
+  background: linear-gradient(62deg, #3A12BB 50%, #E74C3C 100%);
   mix-blend-mode: plus-lighter;
   cursor: none;
 
 .cursor {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   position: absolute;
   background: radial-gradient(#38B8EB, #4138EB);
@@ -30,7 +30,7 @@ body {
   transition: all 900ms ease;
 }
 
-.beeperc { 
+.round { 
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -48,8 +48,7 @@ body {
   background: radial-gradient(#38B8EB, #4138EB);
   transition: 0.1s;
  }
-
-.beeperc {
+ .round {
   font-family: "Kanit", sans-serif;
   font-weight: 100;
   font-size: 5vh;
@@ -61,14 +60,13 @@ body {
   transition: all 900ms ease;
 }
 
-.beeperc:hover {
+.round:hover {
   filter: blur(0);
   letter-spacing: 0.25em;
   transform: scale(1.2);
   color: #38D7EB; 
   mix-blend-mode: difference;
 }
-
 
 .blur-text:hover {
   filter: blur(0);
@@ -87,7 +85,6 @@ body {
   color: #B149FA;
   }
 }
-
 
 #note {
   text-align: right;
